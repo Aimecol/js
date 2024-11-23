@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+.resume-container {
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+  background-color: #222;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.left-panel,
+.right-panel {
+  padding: 20px;
+}
+
+.left-panel {
+  background-color: #333;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 16px;
+  color: #ff6600;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #ff6600;
+}
+
+.about-me,
+.contact-info,
+.skills,
+.reference {
+  margin-bottom: 20px;
+}
+
+.contact-info p,
+.reference p {
+  font-size: 14px;
+}
+
+.skills ul {
+  list-style: none;
+  font-size: 14px;
+}
+
+.skills ul li {
+  margin-bottom: 5px;
+}
+
+.right-panel {
+  width: 65%;
+  background-color: #222;
+}
+
+.job-experiences,
+.education,
+.more,
+.contact-me {
+  padding: 20px;
+  background-color: #333;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+.job h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.job p {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.job a {
+  font-size: 14px;
+  color: #bbb;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.job a:hover {
+  font-size: 14px;
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.more {
+  width: 100%;
+}
+
+.more .projects {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.more a img {
+  max-width: 240px;
+  flex: 1;
+}
+
+.education p {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.highlight {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.contact-me {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-me form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.contact-me form .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 1em;
+}
+
+.contact-me form .column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5em;
+}
+
+.contact-me form input {
+  padding: 1em 0.5em;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #fff4;
+  color: #fff;
+}
+
+textarea {
+  background-color: #fff4;
+  color: #fff;
+  padding: 1em 0.5em;
+  height: 200px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .resume-container {
+    flex-direction: column;
+  }
+
+  .right-panel {
+    width: 100%;
+  }
+
+  .left-panel {
+    width: 100%;
+  }
+
+  .contact-me form .row {
+    flex-direction: column;
+  }
+}
