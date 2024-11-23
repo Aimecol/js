@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Tester</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="keyboard">
+        <!-- First Row -->
+        <div class="row">
+            <button class="key special" data-key="Escape">Esc</button>
+            <button class="key special" data-key="F1">F1</button>
+            <button class="key special" data-key="F2">F2</button>
+            <button class="key special" data-key="F3">F3</button>
+            <button class="key special" data-key="F4">F4</button>
+            <button class="key special" data-key="F5">F5</button>
+            <button class="key special" data-key="F6">F6</button>
+            <button class="key special" data-key="F7">F7</button>
+            <button class="key special" data-key="F8">F8</button>
+            <button class="key special" data-key="F9">F9</button>
+            <button class="key special" data-key="F10">F10</button>
+            <button class="key special" data-key="F11">F11</button>
+            <button class="key special" data-key="F12">F12</button>
+        </div>
+
+        <!-- Second Row -->
+        <div class="row">
+            <button class="key special" data-key="Backquote">`</button>
+            <button class="key" data-key="Digit1">1</button>
+            <button class="key" data-key="Digit2">2</button>
+            <button class="key" data-key="Digit3">3</button>
+            <button class="key" data-key="Digit4">4</button>
+            <button class="key" data-key="Digit5">5</button>
+            <button class="key" data-key="Digit6">6</button>
+            <button class="key" data-key="Digit7">7</button>
+            <button class="key" data-key="Digit8">8</button>
+            <button class="key" data-key="Digit9">9</button>
+            <button class="key" data-key="Digit0">0</button>
+            <button class="key special" data-key="Minus">-</button>
+            <button class="key special" data-key="Equal">=</button>
+            <button class="key special" data-key="Backspace">Backspace</button>
+        </div>
+
+        <!-- Third Row -->
+        <div class="row">
+            <button class="key special" data-key="Tab">Tab</button>
+            <button class="key" data-key="KeyQ">Q</button>
+            <button class="key" data-key="KeyW">W</button>
+            <button class="key" data-key="KeyE">E</button>
+            <button class="key" data-key="KeyR">R</button>
+            <button class="key" data-key="KeyT">T</button>
+            <button class="key" data-key="KeyY">Y</button>
+            <button class="key" data-key="KeyU">U</button>
+            <button class="key" data-key="KeyI">I</button>
+            <button class="key" data-key="KeyO">O</button>
+            <button class="key" data-key="KeyP">P</button>
+            <button class="key special" data-key="BracketLeft">[</button>
+            <button class="key special" data-key="BracketRight">]</button>
+            <button class="key special" data-key="Backslash">\</button>
+        </div>
+
+        <!-- Fourth Row -->
+        <div class="row">
+            <button class="key special" data-key="CapsLock">Caps Lock</button>
+            <button class="key" data-key="KeyA">A</button>
+            <button class="key" data-key="KeyS">S</button>
+            <button class="key" data-key="KeyD">D</button>
+            <button class="key" data-key="KeyF">F</button>
+            <button class="key" data-key="KeyG">G</button>
+            <button class="key" data-key="KeyH">H</button>
+            <button class="key" data-key="KeyJ">J</button>
+            <button class="key" data-key="KeyK">K</button>
+            <button class="key" data-key="KeyL">L</button>
+            <button class="key special" data-key="Semicolon">;</button>
+            <button class="key special" data-key="Quote">'</button>
+            <button class="key special" data-key="Enter">Enter</button>
+        </div>
+
+        <!-- Fifth Row -->
+        <div class="row">
+            <button class="key special wide" data-key="ShiftLeft">Shift</button>
+            <button class="key" data-key="KeyZ">Z</button>
+            <button class="key" data-key="KeyX">X</button>
+            <button class="key" data-key="KeyC">C</button>
+            <button class="key" data-key="KeyV">V</button>
+            <button class="key" data-key="KeyB">B</button>
+            <button class="key" data-key="KeyN">N</button>
+            <button class="key" data-key="KeyM">M</button>
+            <button class="key special" data-key="Comma">,</button>
+            <button class="key special" data-key="Period">.</button>
+            <button class="key special" data-key="Slash">/</button>
+            <button class="key special wide" data-key="ShiftRight">Shift</button>
+        </div>
+
+        <!-- Sixth Row -->
+        <div class="row">
+            <button class="key special" data-key="ControlLeft">Ctrl</button>
+            <button class="key special" data-key="MetaLeft">Win</button>
+            <button class="key special" data-key="AltLeft">Alt</button>
+            <button class="key special space" data-key="Space">Space</button>
+            <button class="key special" data-key="AltRight">Alt</button>
+            <button class="key special" data-key="MetaRight">Win</button>
+            <button class="key special" data-key="ContextMenu">Menu</button>
+            <button class="key special" data-key="ControlRight">Ctrl</button>
+        </div>
+
+        <!-- Navigation and Special Keys -->
+        <div class="row">
+            <button class="key special" data-key="Insert">Insert</button>
+            <button class="key special" data-key="Delete">Delete</button>
+            <button class="key special" data-key="Home">Home</button>
+            <button class="key special" data-key="End">End</button>
+            <button class="key special" data-key="PageUp">PgUp</button>
+            <button class="key special" data-key="PageDown">PgDn</button>
+            <button class="key special" data-key="ArrowLeft">←</button>
+            <button class="key special" data-key="ArrowUp">↑</button>
+            <button class="key special" data-key="ArrowDown">↓</button>
+            <button class="key special" data-key="ArrowRight">→</button>
+        </div>
+    </div>
+    <div id="output">Press a key on the keyboard!</div>
+    <script src="script.js"></script>
+</body>
+</html>
