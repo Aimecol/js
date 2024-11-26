@@ -1,0 +1,109 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.navbar .logo img {
+  width: 100%;
+}
+
+.navbar .search-bar {
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.navbar .nav-icons i {
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.feed {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.post {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.post-header .user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-header .username {
+  font-weight: bold;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #eee;
+}
+
+.post-footer {
+  padding: 10px;
+}
+
+.post-footer .post-actions i {
+  font-size: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.likes {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.comments {
+  font-size: 14px;
+}
+
+.comments span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.comments strong {
+  font-weight: bold;
+}
